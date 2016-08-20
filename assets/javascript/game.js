@@ -49,6 +49,7 @@ function timeoutscreen(){
 }
 
 function wrongscreen(){
+    timeleft = 30;
     $('.question').text("Wrong! The correct answer was " + answer)
     window.setTimeout(firstquestion, 3000)
     $('.answer1').unbind('click')
@@ -65,6 +66,7 @@ function wrongscreen(){
 }
 
 function winscreen(){
+    timeleft = 30;
   $('.question').text("Correct!")
    window.setTimeout(firstquestion, 3000)
     $('.answer1').unbind('click')
