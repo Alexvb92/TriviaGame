@@ -33,7 +33,7 @@ function time1(){
     }
 }
 function timeoutscreen(){
-    $('.question').text("out of time. The correct answer is: "+ answer)
+    $('.question').text("Out of time. The correct answer is: "+ answer)
     window.setTimeout(firstquestion, 3000)
     $('.answer1').unbind('click')
     $('.answer2').unbind('click')
